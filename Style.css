@@ -1,0 +1,165 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.label{
+      text-align: left;
+      font-size: 25pt;
+      margin-top: 10px;
+      margin-left: 150px;
+}
+
+body{
+    background-position: center;
+   background:linear-gradient(#053354,#04375a,#053354,#04395a,#04395a,#03446d);   
+/*    box-shadow: var( #053354,#04395a,#04375a,#03456f,#03446d, #006198,#015688); */
+    box-sizing: border-box;
+    font-family: Verdana;
+    color:white;
+}
+.menu-bar{
+    text-align:right;
+
+}
+.menu-bar a{
+    color:white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top: -20px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+   color: white;
+
+}
+.menu-bar ul li{
+    width:100px;
+   margin-right: 50px;
+    margin:20px;
+    color: white;
+   margin-top: -20px;
+}
+.menu-bar ui li a{
+    text-decoration: none;
+    color:black;
+}
+.active, .menu-bar ul li:hover{
+    border-radius:3px;
+   animation: forwards;
+
+}
+.sub-menu-1
+{
+    display: none;
+    text-align:left;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background:black;
+ /* margin-top: 15px;
+   margin-left:-15px;  */
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+    display:legacy;
+    margin:5px;
+    margin-right: 0px;
+    text-align:left ;
+    font-size: 12pt;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding:10px;
+    background: transparent;
+    border-radius:0;
+    font-size: 12pt;
+   margin:0px;
+    margin-right: -10px;  
+    text-align:left ;
+
+}
+
+.sub-menu-2
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display:block;
+    position:absolute;
+    background:black;
+ /*  margin-top: 15px;
+   margin-left:-15px;  */
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul 
+{
+    display:legacy;
+    margin:5px;
+    margin-right: 0px;
+    text-align:left ;
+    font-size: 12pt;
+    background:black;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    padding:10px;
+    background: transparent;
+    border-radius:0;
+    font-size: 12pt;
+   margin:-30px;
+    margin-right: -300px;  
+    text-align:left ;
+    background:black;
+
+}
+
+.sub-menu-3
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display:block;
+    position:absolute;
+    background:black;
+   margin-top: 15px;
+   margin-left:-15px;  
+
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul 
+{
+    display:legacy;
+    margin:0px;
+    margin-right: 0px;
+    text-align:left ;
+    font-size: 12pt;
+    background:black;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul li{
+    width: 150px;
+    padding:10px;
+    background: transparent;
+    border-radius:0;
+    font-size: 12pt;
+   margin:-30px;
+    margin-left: -300px;  
+    text-align:left ;
+    background:black;
+
+}
